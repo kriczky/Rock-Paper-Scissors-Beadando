@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+    background-color: #DCE1E3;
+
+}
+
+.fejlec{
+    background-color: rgb(209, 25, 25);
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    width: 500px;
+    border-radius: 10px;
+    position: relative;
+    border: 4px solid black;
+
+
+}
+
+header > h1{
+    color:rgb(255, 255, 255);
+}
+
+.eredmenyek{
+    text-align: center;
+
+}
+.eredmeny{
+    display: inline-block;
+    border: 5px solid rgba(0, 0, 0, 0.829);
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: rgba(235, 211, 104, 0.479);
+    color: rgb(58, 1, 1);
+    width: 250px;
+    font-weight: bold;
+}
+
+.eredmenyek_szam{
+    text-align: center;
+
+}
+
+.eredmeny_szam{
+    display: inline-block;
+    border: 5px solid rgba(0, 0, 0, 0.829);
+    text-align: center;
+    margin: 0 70px 0 70px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: rgba(245, 229, 159, 0.479);
+    color: rgb(58, 1, 1);
+    width: 150px;
+    font-weight: bold;
+}
+
+#kulon{
+    width: 600px;
+}
+img{
+    width: 150px;
+
+}
+.valsztasok{
+    text-align: center;
+    padding: 5px;
+}
+.valasztas{
+    display: inline-block;
+    border: 8px solid white;
+    border-radius: 50%;
+
+}
+.valasztas:hover{
+    cursor: pointer;
+    background-color: rgb(28, 161, 117);
+}
+
+
+.vege{
+    text-align: center;
+}
+.vege > p {
+    text-align: center;
+    font-size: 35px;
+
+    margin: 5px;
+}
+
+
+
+
+.ko_ollo>p{
+    text-align: center;
+}
+.ko_ollo{
+    display:none;
+}
+
+
+.papir_ko>p{
+    text-align: center;
+}
+.papir_ko{
+    display:none;
+}
+
+.ollo_papir>p{
+    text-align: center;
+}
+.ollo_papir{
+    display:none;
+}
+
+
+
+
+.ko_papir>p{
+    text-align: center;
+}
+.ko_papir{
+    display:none;
+}
+
+
+.papir_ollo>p{
+    text-align: center;
+}
+.papir_ollo{
+    display:none;
+}
+
+.ollo_ko>p{
+    text-align: center;
+}
+.ollo_ko{
+    display:none;
+}
+
+
+
+
+
+.ko_ko>p{
+    text-align: center;
+}
+.ko_ko{
+    display:none;
+}
+
+
+.papir_papir>p{
+    text-align: center;
+}
+.papir_papir{
+    display:none;
+}
+
+.ollo_ollo>p{
+    text-align: center;
+}
+.ollo_ollo{
+    display:none;
+}
+
+
+.utolsok{
+    text-align: left;
+    padding: 50px;
+    margin: 0 auto;
+
+    border-radius: 10px;
+    background-color: rgba(215, 219, 223, 0.534);
+    text-align: center;
+    box-shadow: rgb(58, 1, 1);
+}
+.linkek{
+    display:inline-flex;
+    border-radius: 25%;
+    padding: 50px;
+    margin: 0 50px;
+    color: rgb(224, 192, 8);
+    font-weight: bold;
+    font-size: 40px;
+
+
+}
+.linkek:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.212);
+}
+
+a:active{
+    color: rgb(224, 192, 8);
+}
+a:any-link{
+    color:rgb(224, 192, 8);
+}
+a{
+    text-decoration: none;
+}
